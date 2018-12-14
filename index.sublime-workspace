@@ -4,6 +4,30 @@
 		"selected_items":
 		[
 			[
+				"fa-ca",
+				"fa-camera\t(font-awesome.css)"
+			],
+			[
+				"fa-bo",
+				"fa-bookmark\t(font-awesome.css)"
+			],
+			[
+				"btn",
+				"btn-primary"
+			],
+			[
+				"bl",
+				"black"
+			],
+			[
+				"BO",
+				"border"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
 				"l",
 				"li\tTag"
 			]
@@ -19,10 +43,26 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 367.0,
-		"last_filter": "Package Control: ",
+		"height": 392.0,
+		"last_filter": "sftp",
 		"selected_items":
 		[
+			[
+				"sftp",
+				"SFTP: Browse Server…"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"pacac",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
 			[
 				"Package Control: ",
 				"Package Control: Install Package"
@@ -32,7 +72,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 449.0
+		"width": 593.0
 	},
 	"console":
 	{
@@ -55,10 +95,23 @@
 	},
 	"file_history":
 	[
+		"/Users/diegoarnes/Desktop/web/pruebadegit/index.html",
+		"/Users/diegoarnes/Desktop/web/pruebadegit/README.md",
+		"/Users/diegoarnes/Desktop/web/master/index.html",
+		"/Users/diegoarnes/Desktop/web/master/font-awesome/css/font-awesome.css",
+		"/Users/diegoarnes/Desktop/web/master/lib/estilo.css",
+		"/Users/diegoarnes/Desktop/web/master/bootstrap/css/bootstrap.min.css.map",
+		"/Users/diegoarnes/Desktop/web/AdrianAlegria/web/index.html",
+		"/Users/diegoarnes/Desktop/web/AdrianAlegria/web/sftp-config.json",
+		"/Users/diegoarnes/Library/Application Support/Sublime Text 3/Packages/SFTP/Default (OSX).sublime-keymap",
+		"/Users/diegoarnes/Library/Application Support/Sublime Text 3/Packages/User/SFTP.sublime-settings",
+		"/Users/diegoarnes/Library/Application Support/Sublime Text 3/Packages/SFTP/SFTP.sublime-settings",
+		"/Users/diegoarnes/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/diegoarnes/Library/Application Support/Sublime Text 3/Packages/SideBarEnhancements/Side Bar.sublime-settings"
 	],
 	"find":
 	{
-		"height": 23.0
+		"height": 24.0
 	},
 	"find_in_files":
 	{
@@ -72,13 +125,6 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"\n<head\n\t<meta charset=\"UTF-8\">\n\t<title>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea, voluptas.</title>\n</head>\n<body>\n\t< href=\"\"></a>\n</body>\n</html\n\n\n\n",
-			">",
-			"\">\n",
-			"title",
-			"\n<",
-			"\t\n",
-			"nav"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -103,7 +149,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 23.0
+		"height": 24.0
 	},
 	"input":
 	{
@@ -132,15 +178,31 @@
 		]
 	},
 	"menu_visible": true,
+	"output.CSS Extended Completions":
+	{
+		"height": 0.0
+	},
+	"output.GitSavvy":
+	{
+		"height": 100.0
+	},
 	"output.find_results":
 	{
 		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 100.0
+	},
+	"output.sftp":
+	{
+		"height": 150.0
 	},
 	"pinned_build_system": "",
 	"project": "index.sublime-project",
 	"replace":
 	{
-		"height": 42.0
+		"height": 44.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -151,7 +213,7 @@
 		[
 			[
 				"",
-				"untitled"
+				"bootstrap/css/bootstrap.min.css.map"
 			]
 		],
 		"width": 0.0
