@@ -1,0 +1,126 @@
+* { box-sizing: border-box;}
+	
+html {
+  overflow: hidden;
+  
+  margin: auto;
+  background: url("../images/fondo.jpg") no-repeat center center fixed;
+  background-size: cover;
+  font-size: 0.87em;
+  font-family: 'Pathway Gothic One', sans-serif;}
+  
+a {
+  color: #FFF;
+  text-decoration: none;}
+    
+#logotipo {
+  margin: 5px 20px;
+  max-width: 600px;
+  width: 100%;
+  height: auto;}  
+	
+#logoApple, #logoBeatport {
+  float: right; }
+
+main {
+  overflow: hidden;
+  padding-top: 2%;
+  padding-bottom: 2%; 
+  max-width: 650px;}
+
+#app-menu{
+  float: left;
+  padding-left: 20px;
+  width: 20%;
+  border-right: 5px solid #FFF;
+  list-style: none;
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+
+   li:hover, li.active {
+       background: #FFF;
+       -webkit-transition: all 0.3s ease-in;
+       transition: all 0.3s ease-in; }
+   li{
+     margin-bottom: 38px;
+     color: #FFF;
+     text-transform: uppercase;
+     font-size: 150%;
+     cursor: pointer;}
+    li.active a, li a:hover {
+       color: #000;
+       -webkit-transition: all 0.3s ease-in;
+       transition: all 0.3s ease-in; }
+}
+
+footer {
+    position: fixed;
+    bottom: 5px;
+    display: flex;
+    margin-left: 20px;
+    width: 100%;
+    color: #000;
+
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: baseline;
+     iframe {
+      float: right;
+      padding-right: 20px;
+      width: 35%; }
+ }
+
+.bottomIncrease:hover {
+  -webkit-transform: scale(1.1, 1.1);
+  -moz-transform: scale(1.1, 1.1); }
+
+#links {
+    display: flex;
+    width: 60%;
+
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center; }
+
+#designed {
+  font-size: 24px;
+
+   a:hover {
+    color: #C3C; }
+   a {
+    color: #000;}
+   }
+
+@media (max-width: 1066px) {
+footer{
+  margin-left: 0;}
+footer iframe{ 
+  display:none;}
+#links {
+    width: 100%;}
+#designed {
+  display:none;}
+#logoBeatport{
+   display:none;
+  }
+#logoApple{
+   display:none;
+  }
+}
+	
+@media (max-width: 650px) {
+  html {
+    background: url("../images/fondo.jpg") no-repeat center center ;}
+  #logotipo {
+	margin: 0;}
+  main {
+    padding-top: 0;
+    padding-bottom: 0; }
+  #app-menu {
+    padding-left: 0;
+	li {
+     font-size: 4vw; }
+  } 
+  footer{
+  position:inherit;}
+}
